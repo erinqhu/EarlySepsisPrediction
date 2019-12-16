@@ -24,3 +24,25 @@ As large amount of missing data is our biggest issue in preprocessing, we have i
   * Logistic regression
   * Principle Component Analsis (PCA) and LR
   * Random Forest (RF)
+
+## Code
+Our code are in two folders: `data_preprocessing` and `models`.
+* Data_preprocessing
+  * `Analyzing_data.ipynb`:
+  * `raw_data_split.ipynb`:
+  * `missing_vals_baseline.ipynb`:
+  * `missing_vals_LDS.ipynb`:
+* Models
+  Baseline:
+  * `baseline_model_LR.ipynb`:
+  * `baseline_model_PCA_LR.ipynb`:
+  * `baseline_RF.ipynb`:
+  
+  LDS Imputed:
+  * `LDS_model_LR.ipynb`:
+  * `LDS_model_PCA_LR.ipynb`:
+  * `LDS_RF.ipynb`:
+  * `baseline_LDS_other_classifiers.ipynb`:
+
+## Results
+RNN that combines imputation and classification functions, implements a fixed sliding window on each patient, better catching and summarizing the time dependency. It achieved the best AUC of 0.82 and precision of 0.21, outperforming any other models.
