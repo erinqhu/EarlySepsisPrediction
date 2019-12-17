@@ -46,4 +46,9 @@ Our code are in two folders: `data_preprocessing` and `models`.
   * `baseline_LDS_other_classifiers.ipynb`:
 
 ## Results
-RNN that combines imputation and classification functions, implements a fixed sliding window on each patient, better catching and summarizing the time dependency. It achieved the best AUC of 0.82 and precision of 0.21, outperforming any other models.
+RNN that combines imputation and classification functions, implements a fixed sliding window on each patient, better catching and summarizing the time dependency. It achieved the best AUC of 0.82 and precision of 0.21, outperforming any other models. <br>
+
+<p align="center">
+  <img src="plots/roc_pr_RNN.png" width="80%" height="80%">
+</p>
+
